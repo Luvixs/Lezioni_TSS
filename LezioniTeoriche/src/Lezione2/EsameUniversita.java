@@ -47,7 +47,7 @@ public class EsameUniversita {
 			System.out.println("i numeri sono diverai");
 		}
 		
-		String msg = (a == b)? "i numeri sono uguali" : "i numeri sono diversi;"
+		String msg = (a == b)? "i numeri sono uguali" : "i numeri sono diversi";
 		
 		
 	}

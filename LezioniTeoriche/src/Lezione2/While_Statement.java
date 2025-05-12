@@ -32,7 +32,7 @@ public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);
 	
 	String parola = "";
-	
+	int tentativi = 0;
 	while(!parola.equals("ciaobello")) {
 		tentativi++;
 		System.out.println("parola d'ordine errata");
