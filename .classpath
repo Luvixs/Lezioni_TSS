@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="LezioniTeoriche/src"/>
 	<classpathentry kind="src" path="Prj_1_MenuGiochi/src"/>
 	<classpathentry kind="src" path="Prj_2_ContoCorrente/src"/>
+	<classpathentry kind="src" path="Prj_3_Spotify"/>
 	<classpathentry kind="output" path="Esercizi/bin"/>
 </classpath>
