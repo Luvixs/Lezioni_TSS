@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="Esercizi/src"/>
 	<classpathentry kind="src" path="Hello_World/src"/>
 	<classpathentry kind="src" path="LezioniTeoriche/src"/>
 	<classpathentry kind="src" path="Prj_1_MenuGiochi/src"/>
 	<classpathentry kind="src" path="Prj_2_ContoCorrente/src"/>
 	<classpathentry kind="src" path="Prj_3_Spotify"/>
+	<classpathentry kind="src" path="Prj_4_RegistroAula/src"/>
 	<classpathentry kind="output" path="Esercizi/bin"/>
 </classpath>
