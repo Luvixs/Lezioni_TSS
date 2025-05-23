@@ -12,5 +12,6 @@
 	<classpathentry kind="src" path="Prj_2_ContoCorrente/src"/>
 	<classpathentry kind="src" path="Prj_3_Spotify"/>
 	<classpathentry kind="src" path="Prj_4_RegistroAula/src"/>
+	<classpathentry kind="src" path="Prj_5_Geometria/src"/>
 	<classpathentry kind="output" path="Esercizi/bin"/>
 </classpath>
