@@ -18,7 +18,7 @@ public abstract class Dipendente {
 	
 	//metodi
 	public void mostraInfo() {
-		System.out.println(getRuolo() + ": " + nome + " - Stipendio: €" + getStipendioBase());
+		System.out.println(getRuolo() + ": " + nome + " - Stipendio: €" + calcolaStipendioBase());
 	}
 	
 	abstract double calcolaStipendioBase();

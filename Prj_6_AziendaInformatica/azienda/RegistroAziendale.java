@@ -16,15 +16,20 @@ public class RegistroAziendale {
     }
 
     public void stampaTuttiDipendenti() {
-        for (Dipendente d : dipendenti) {
-            System.out.println(d);
+        for (Dipendente dipendente : dipendenti) {
+           // System.out.println(dipendente.nome);
+           // System.out.println(dipendente.getRuolo());
+           // System.out.println(dipendente.calcolaStipendioBase());
+            dipendente.mostraInfo();
+                      
         }
     }
 
     public void stampaDipendentiPerRuolo(String ruolo) {
-        for (Dipendente d : dipendenti) {
-            if (d.getRuolo().equalsIgnoreCase(ruolo)) {
-                System.out.println(d);
+        for (Dipendente dipendente : dipendenti) {
+            if (dipendente.getRuolo().equalsIgnoreCase(ruolo)) {
+                //System.out.println(dipendente.nome);
+            	dipendente.mostraInfo();
             }
         }
     }
@@ -38,10 +43,11 @@ public class RegistroAziendale {
         registro.aggiungiDipendente(new HR("Marco"));
         registro.aggiungiDipendente(new Segretario("Lucia"));
         registro.aggiungiDipendente(new Manager("Giovanni"));
-
+        
         System.out.println("Tutti i dipendenti:");
         registro.stampaTuttiDipendenti();
-
+        
+     
         System.out.println("\nSolo Programmatori:");
         registro.stampaDipendentiPerRuolo("Programmatore");
 		    
