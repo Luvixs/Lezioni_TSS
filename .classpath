@@ -13,5 +13,6 @@
 	<classpathentry kind="src" path="Prj_3_Spotify"/>
 	<classpathentry kind="src" path="Prj_4_RegistroAula/src"/>
 	<classpathentry kind="src" path="Prj_5_Geometria/src"/>
+	<classpathentry kind="src" path="Prj_6_AziendaInformatica"/>
 	<classpathentry kind="output" path="Esercizi/bin"/>
 </classpath>
